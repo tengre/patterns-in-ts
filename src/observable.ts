@@ -1,10 +1,10 @@
 /**
- *  $Git: observable.ts v0.1.1-3-3 2022-10-25 02:41:10+04:00 toor $
+ *  $Git: observable.ts v0.2.0-8-2 2022-10-25 03:04:03+04:00 toor $
  */
 import {Observer} from "./observer";
 import {Action} from "./types";
 
-class Observable {
+export class Observable {
     protected observers: Observer[];
     constructor() {
         this.observers = [];
