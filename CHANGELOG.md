@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/tengre/patterns-in-ts/compare/v0.2.0...v0.2.1) (2022-10-24)
+
+
+### Features
+
+* add entry point file ([52596c6](https://github.com/tengre/patterns-in-ts/commit/52596c64a87a1538a3c0383e75c337cce2fb3eb5))
+* subscribe observable object to observers ([f2bac77](https://github.com/tengre/patterns-in-ts/commit/f2bac77c2055a5f09bff53e8157bb3035fafc76c))
+
 ## [0.2.0](https://github.com/tengre/patterns-in-ts/compare/v0.1.1...v0.2.0) (2022-10-24)
 
 
