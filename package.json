@@ -1,0 +1,22 @@
+{
+  "name": "patterns-in-ts",
+  "version": "0.1.0",
+  "description": "examples of patterns in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tengre/patterns-in-ts.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Damir Sh. Yakupov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tengre/patterns-in-ts/issues"
+  },
+  "homepage": "https://github.com/tengre/patterns-in-ts#readme"
+}
