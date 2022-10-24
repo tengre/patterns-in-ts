@@ -4,7 +4,10 @@
   "description": "examples of patterns in typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "validate-commit-msg",
+    "release": "standard-version",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,26 @@
   "bugs": {
     "url": "https://github.com/tengre/patterns-in-ts/issues"
   },
-  "homepage": "https://github.com/tengre/patterns-in-ts#readme"
+  "homepage": "https://github.com/tengre/patterns-in-ts#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
+    "husky": "^8.0.1",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./commitizen.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './commitlint.js'"
+    }
+  }
 }
