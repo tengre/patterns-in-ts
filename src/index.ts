@@ -1,5 +1,5 @@
 /**
- * $Git: index.ts v0.2.1-13-1 2022-10-25 03:22:31+04:00 toor $
+ * $Git: index.ts v0.2.2-15-1 2022-10-25 03:24:58+04:00 toor $
  */
 
 import {Observable} from "./observable";
@@ -18,4 +18,9 @@ console.log(`observer1 ${obs1.getState()}, observer2 ${obs2.getState()}`);
 stream$.update({type: 'INC'});
 console.log(`observer1 ${obs1.getState()}, observer2 ${obs2.getState()}`);
 stream$.update({type: 'DEC'});
+console.log(`observer1 ${obs1.getState()}, observer2 ${obs2.getState()}`);
+
+stream$.update({type: 'ADD', payload: 21});
+console.log(`observer1 ${obs1.getState()}, observer2 ${obs2.getState()}`);
+stream$.update({type: 'SUB', payload: 43});
 console.log(`observer1 ${obs1.getState()}, observer2 ${obs2.getState()}`);
