@@ -8,7 +8,8 @@
     "commitmsg": "validate-commit-msg",
     "release": "standard-version",
     "commit": "git-cz",
-    "build": "tsc"
+    "build": "tsc",
+    "exec": "node dist/index.js"
   },
   "repository": {
     "type": "git",
