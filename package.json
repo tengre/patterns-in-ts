@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commitmsg": "validate-commit-msg",
     "release": "standard-version",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
