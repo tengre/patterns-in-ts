@@ -1,6 +1,6 @@
 {
   "name": "patterns-in-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "examples of patterns in typescript",
   "main": "index.js",
   "scripts": {
