@@ -1,0 +1,17 @@
+node_modules
+
+package-lock.json
+commitizen.js
+commitlint.js
+
+# local env files
+.env.local
+.env.*.local
+.env
+
+# Log files
+*.log
+
+# Editor directories and files
+.idea
+.vscode
