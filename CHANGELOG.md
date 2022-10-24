@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/tengre/patterns-in-ts/compare/v0.2.2...v0.3.0) (2022-10-24)
+
+
+### Features
+
+* add ADD and SUB events ([a3c08be](https://github.com/tengre/patterns-in-ts/commit/a3c08be32f3fc17e4dcebf94909ba777e207d6a1))
+
 ### [0.2.2](https://github.com/tengre/patterns-in-ts/compare/v0.2.1...v0.2.2) (2022-10-24)
 
 
