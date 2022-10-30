@@ -2,9 +2,6 @@ node_modules
 dist
 
 package-lock.json
-commitizen.js
-commitlint.js
-.gitconfig
 
 # local env files
 .env.local
