@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/tengre/patterns-in-ts/compare/v0.3.1...v0.4.0) (2022-10-30)
+
+
+### Features
+
+* add Constructor pattern class and example ([045e893](https://github.com/tengre/patterns-in-ts/commit/045e893b03c6cc0c9ec9e55813583742d76decf3))
+
 ### [0.3.1](https://github.com/tengre/patterns-in-ts/compare/v0.3.0...v0.3.1) (2022-10-24)
 
 ## [0.3.0](https://github.com/tengre/patterns-in-ts/compare/v0.2.2...v0.3.0) (2022-10-24)
